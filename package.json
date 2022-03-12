@@ -1,0 +1,23 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Tech-Blog hmwk",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonawilliams1/tech-blog.git"
+  },
+  "keywords": [
+    "Tech-Blog"
+  ],
+  "author": "Brandon Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonawilliams1/tech-blog/issues"
+  },
+  "homepage": "https://github.com/brandonawilliams1/tech-blog#readme"
+}
