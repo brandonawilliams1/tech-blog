@@ -1,0 +1,69 @@
+header,
+    .project:not(:last-child) {
+        border-bottom: 1px solid rgb(202, 209, 202);
+    }
+    
+    h2 {
+        color: #3c5aff;
+    }
+    
+    h2 a {
+        color: #5425ff;
+    }
+    
+    nav a {
+        font-weight: 900;
+        font-size: 150%;
+        color: rgb(255, 213, 24);
+        background-color: #0080a7;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    nav a:hover {
+        background-color: #a494ff;
+        color: #86113e;
+        text-decoration: none;
+    }
+    
+    .no-button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        color: #0081d6;
+        text-decoration: none;
+        font-size: 100%;
+    }
+    
+    .no-button:hover {
+        color: #005075;
+        text-decoration: underline;
+    }
+    
+    .dollar-amount {
+        color: #187918;
+        font-weight: bold;
+        margin-left: -5px;
+    }
+    
+    .jumbotron {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(78, 211, 182);
+    }
+    
+    .site {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    
+    .site-content {
+        flex: 1;
+        background-color: #bbc5f3;
+    }
+    
+    .footer {
+        flex-shrink: 0;
+    }
